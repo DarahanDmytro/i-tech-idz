@@ -1,0 +1,124 @@
+body{
+  padding: 0;
+  margin: 0;
+  --redy: #e33;
+}
+
+form{
+    display: flex; 
+    padding: 20px 40px;
+    border: 1px solid black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 1% 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 20%;
+    background: var(--redy);
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+h1{
+  margin: 20px;
+}
+
+
+main{
+    flow right;
+    top: 20%;
+    height: 60%;
+    width: 95%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+p{
+    font-size: 15px;
+    color: #a00;
+    text-align: center;
+}
+
+aside{
+    order: 2;
+    max-width: 25%;
+    background: lightgray;
+    border: 3px solid black;
+    padding: 20px 40px;
+    margin: 1%;
+    flex-basis: 0.2;
+}
+
+#blog{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    order: 1;
+    min-width: 50%;
+    background: lightgray;
+    border: 3px solid black;
+    padding: 20px 40px;
+    margin: 1% 5%;
+    flex-basis: 0.8;
+}
+
+.blogpost{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    margin: 2%;
+    padding-top: 1%;
+    padding: 5%;
+    min-width: 100%;
+}
+
+.blogpost h3{
+    display: flex;
+    align-self: center;
+    margin: auto;
+}
+
+form *{
+    width: auto;
+    min-width: 90%;
+    margin: 1% auto;
+}
+
+footer{
+   width: 100%;
+   left: 0;
+   min-height: 100px;
+   background-color: var(--redy);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border-top: 1px solid black;
+}
+
+footer img{
+    border: 3px solid black;
+}
+
+li{
+    margin: 10px;
+}
+
+a:link, a:visited{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
